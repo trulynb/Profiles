@@ -64,6 +64,7 @@ external-controller: 127.0.0.1:9090
 hosts:
   'mtalk.google.com': 108.177.125.188
   't.cn': 203.107.55.116
+  
   # '*.clash.dev': 127.0.0.1
   # '.dev': 127.0.0.1
   # 'alpha.clash.dev': '::1'
@@ -92,6 +93,7 @@ dns:
     - 'dns.msftncsi.com'
     - 'www.msftncsi.com'
     - 'www.msftconnecttest.com'
+    - '*.qunhequnhe.com'
   
   # Supports UDP, TCP, DoT, DoH. You can specify the port to connect to.
   # All DNS questions are sent directly to the 
