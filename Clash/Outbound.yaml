@@ -361,7 +361,7 @@ rule-providers:
 
 # 规则
 rules:
-  #- DOMAIN,oa.qunhequnhe.com,DIRECT
+  - DOMAIN-KEYWORD,qunhequnhe,DIRECT
   # Unbreak
   - RULE-SET,Unbreak,DIRECT
 
