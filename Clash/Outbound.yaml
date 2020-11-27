@@ -36,7 +36,7 @@ mode: rule
 log-level: info
 
 # When set to false, resolver won't translate hostnames to IPv6 addresses
-ipv6: false
+ipv6: true
 
 # RESTful web API listening address
 external-controller: 127.0.0.1:9090
@@ -93,6 +93,7 @@ dns:
     - 'dns.msftncsi.com'
     - 'www.msftncsi.com'
     - 'www.msftconnecttest.com'
+    - '*.qunhequnhe.com'
     
   
   # Supports UDP, TCP, DoT, DoH. You can specify the port to connect to.
@@ -358,7 +359,7 @@ rule-providers:
 
 # 规则
 rules:
-  - DOMAIN,oa.qunhequnhe.com,DIRECT
+  #- DOMAIN,oa.qunhequnhe.com,DIRECT
   # Unbreak
   - RULE-SET,Unbreak,DIRECT
 
