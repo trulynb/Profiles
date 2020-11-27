@@ -94,10 +94,13 @@ dns:
     - 'www.msftconnecttest.com'
   
   # Supports UDP, TCP, DoT, DoH. You can specify the port to connect to.
-  # All DNS questions are sent directly to the nameserver, without proxies
+  # All DNS questions are sent directly to the 
+  , without proxies
   # involved. Clash answers the DNS question with the first result gathered.
   nameserver:
     - 119.29.29.29
+    - 10.1.8.10
+    - 10.1.5.10
     # - tls://dns.rubyfish.cn:853 # DNS over TLS
     # - https://1.1.1.1/dns-query # DNS over HTTPS
 
