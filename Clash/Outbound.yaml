@@ -81,6 +81,7 @@ dns:
   default-nameserver:
     - 119.29.29.29
     - 1.0.0.1
+    - system
   enhanced-mode: redir-host # or fake-ip
   fake-ip-range: 198.18.0.1/16 # Fake IP addresses pool CIDR
   
@@ -102,6 +103,7 @@ dns:
   # involved. Clash answers the DNS question with the first result gathered.
   nameserver:
     - 119.29.29.29
+    - system
     #- 10.1.8.10
     #- 10.1.5.10
     # - tls://dns.rubyfish.cn:853 # DNS over TLS
